@@ -1,0 +1,790 @@
+﻿  KAPMainPanel.cpp
+  KAPPanelBase.cpp
+  KAPAudioHelpers.cpp
+  KAPDelay.cpp
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.h(16,18): error C2061: erreur de syntaxe : identificateur 'AudioPluginAudioProcessor'
+  (compiler le fichier source '../../Source/KAPMainPanel.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(13,28): error C2065: 'AudioPluginAudioProcessor' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(13,55): error C2065: 'inProcessor' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(13,15): error C7550: 'KAPMainPanel::{ctor}' : le nom qualifié dans ce contexte nomme un constructeur et non un type
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(14,5): error C2059: erreur de syntaxe : ':'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(14,20): error C2065: 'inProcessor' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(14,31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  KAPGain.cpp
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(15,1): error C2059: erreur de syntaxe : '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(15,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPMainPanel.cpp(15,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.h(23,18): error C2144: erreur de syntaxe : 'int' doit être précédé de ','
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.h(29,19): error C2059: erreur de syntaxe : 'constante'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,43): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,49): error C2504: 'AudioProcessor' : classe de base non définie
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,51): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,51): error C2143: erreur de syntaxe : absence de ',' avant '&'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+  KAPlfo.cpp
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPDelay.cpp(24,1): error C2550: 'KAPDelay::~KAPDelay' : les listes d'initialiseurs de constructeur ne sont autorisées que dans la définition d'un constructeur
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPAudioHelpers.cpp(11,10): error C1083: Impossible d'ouvrir le fichier include : 'KAPAudioHelpers.h' : No such file or directory
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,24): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,30): error C2061: erreur de syntaxe : identificateur 'AudioBuffer'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,5): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPDelay.cpp(36,5): error C3861: 'zeromem' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,31): error C2143: erreur de syntaxe : absence de ';' avant '*'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPDelay.cpp(45,30): error C2761: 'void KAPDelay::process(float *,float,float,float,float *,float *,int)' : la redéclaration du membre n'est pas autorisée
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,56): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPDelay.cpp(46,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,11): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,24): error C3646: 'getName' : spécificateur de substitution inconnu
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,32): error C2059: erreur de syntaxe : ')'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,48): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,11): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,24): error C3646: 'getProgramName' : spécificateur de substitution inconnu
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,40): error C2062: type 'int' inattendu
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,59): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,46): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,58): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,58): error C2143: erreur de syntaxe : absence de ',' avant '&'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,31): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,37): error C2061: erreur de syntaxe : identificateur 'MemoryBlock'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,36): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,38): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,34): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): warning C4183: 'JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(25,6): error C3668: 'AudioPluginAudioProcessor::~AudioPluginAudioProcessor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(28,10): error C3668: 'AudioPluginAudioProcessor::prepareToPlay' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(29,10): error C3668: 'AudioPluginAudioProcessor::releaseResources' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,10): error C3668: 'AudioPluginAudioProcessor::isBusesLayoutSupported' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,10): error C3668: 'AudioPluginAudioProcessor::processBlock' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(39,10): error C3668: 'AudioPluginAudioProcessor::hasEditor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(44,10): error C3668: 'AudioPluginAudioProcessor::acceptsMidi' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(45,10): error C3668: 'AudioPluginAudioProcessor::producesMidi' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(46,10): error C3668: 'AudioPluginAudioProcessor::isMidiEffect' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(47,12): error C3668: 'AudioPluginAudioProcessor::getTailLengthSeconds' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(50,9): error C3668: 'AudioPluginAudioProcessor::getNumPrograms' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(51,9): error C3668: 'AudioPluginAudioProcessor::getCurrentProgram' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(52,10): error C3668: 'AudioPluginAudioProcessor::setCurrentProgram' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,10): error C3668: 'AudioPluginAudioProcessor::changeProgramName' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,10): error C3668: 'AudioPluginAudioProcessor::getStateInformation' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(58,10): error C3668: 'AudioPluginAudioProcessor::setStateInformation' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.h(17,12): error C2504: 'Component' : classe de base non définie
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.h(23,16): error C2061: erreur de syntaxe : identificateur 'Graphics'
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.h(23,10): error C3668: 'KAPPanelBase::paint' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/KAPPanelBase.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(23,26): error C2065: 'Graphics' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(23,36): error C2065: 'g' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(23,37): error C2761: 'void KAPPanelBase::paint(void)' : la redéclaration du membre n'est pas autorisée
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(24,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'setColor'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,16): error C2653: 'Colours' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(26,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(26,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(26,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(26,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(26,5): error C2086: 'int g' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,5):
+  voir la déclaration de 'g'
+  
+  PluginProcessor.cpp
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(26,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'fillAll'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,5): error C2086: 'int g' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,5):
+  voir la déclaration de 'g'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'setColor'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(27,16): error C2653: 'Colours' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(28,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.h(23,18): error C2144: erreur de syntaxe : 'int' doit être précédé de ','
+  (compiler le fichier source '../../Source/KAPGain.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(28,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(28,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(28,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(28,5): error C2086: 'int g' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(25,5):
+  voir la déclaration de 'g'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(28,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'drawRect'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(31,1): error C2059: erreur de syntaxe : '}'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.cpp(23,5): error C2144: erreur de syntaxe : 'int' doit être précédé de ','
+  PluginEditor.cpp
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPPanelBase.cpp(31,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.cpp(26,24): error C3861: 'jmap' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.cpp(27,18): error C2653: 'Decibels' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.cpp(27,28): error C3861: 'decibelsToGain' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.h(29,19): error C2059: erreur de syntaxe : 'constante'
+  (compiler le fichier source '../../Source/KAPlfo.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(26,20): error C3867: 'KAPlfo::mBuffer' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(26,5): error C3861: 'zeromem' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(37,24): error C3861: 'jmap' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(40,25): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(45,31): error C3861: 'sinf' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(45,17): error C2737: 'lfoPosition' : l’objet const doit être initialisé
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(46,13): error C2065: 'i' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(46,5): error C3867: 'KAPlfo::mBuffer' : syntaxe non-standard ; utilisez '&' pour créer un pointeur vers un membre
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(48,1): error C2059: erreur de syntaxe : '}'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(48,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.h(23,18): error C2144: erreur de syntaxe : 'int' doit être précédé de ','
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(49,28): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.cpp(49,28): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.h(29,19): error C2059: erreur de syntaxe : 'constante'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,43): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,49): error C2504: 'AudioProcessor' : classe de base non définie
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,51): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,51): error C2143: erreur de syntaxe : absence de ',' avant '&'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,24): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,30): error C2061: erreur de syntaxe : identificateur 'AudioBuffer'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,5): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,31): error C2143: erreur de syntaxe : absence de ';' avant '*'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,56): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,11): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,24): error C3646: 'getName' : spécificateur de substitution inconnu
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,32): error C2059: erreur de syntaxe : ')'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,48): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,11): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,24): error C3646: 'getProgramName' : spécificateur de substitution inconnu
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,40): error C2062: type 'int' inattendu
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,59): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,46): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,58): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,58): error C2143: erreur de syntaxe : absence de ',' avant '&'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,31): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,37): error C2061: erreur de syntaxe : identificateur 'MemoryBlock'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,36): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,38): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,34): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): warning C4183: 'JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(25,6): error C3668: 'AudioPluginAudioProcessor::~AudioPluginAudioProcessor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(28,10): error C3668: 'AudioPluginAudioProcessor::prepareToPlay' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(29,10): error C3668: 'AudioPluginAudioProcessor::releaseResources' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,10): error C3668: 'AudioPluginAudioProcessor::isBusesLayoutSupported' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,10): error C3668: 'AudioPluginAudioProcessor::processBlock' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(39,10): error C3668: 'AudioPluginAudioProcessor::hasEditor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(44,10): error C3668: 'AudioPluginAudioProcessor::acceptsMidi' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(45,10): error C3668: 'AudioPluginAudioProcessor::producesMidi' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(46,10): error C3668: 'AudioPluginAudioProcessor::isMidiEffect' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(47,12): error C3668: 'AudioPluginAudioProcessor::getTailLengthSeconds' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(50,9): error C3668: 'AudioPluginAudioProcessor::getNumPrograms' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(51,9): error C3668: 'AudioPluginAudioProcessor::getCurrentProgram' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(52,10): error C3668: 'AudioPluginAudioProcessor::setCurrentProgram' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,10): error C3668: 'AudioPluginAudioProcessor::changeProgramName' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,10): error C3668: 'AudioPluginAudioProcessor::getStateInformation' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(58,10): error C3668: 'AudioPluginAudioProcessor::setStateInformation' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(17,49): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(17,55): error C2504: 'AudioProcessorEditor' : classe de base non définie
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(24,17): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(24,23): error C2061: erreur de syntaxe : identificateur 'Graphics'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPGain.h(23,18): error C2144: erreur de syntaxe : 'int' doit être précédé de ','
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(32,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(32,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(32,43): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(35,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(35,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(35,1): warning C4183: 'JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(21,6): error C3668: 'AudioPluginAudioProcessorEditor::~AudioPluginAudioProcessorEditor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(24,10): error C3668: 'AudioPluginAudioProcessorEditor::paint' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(25,10): error C3668: 'AudioPluginAudioProcessorEditor::resized' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginProcessor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\KAPlfo.h(29,19): error C2059: erreur de syntaxe : 'constante'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(15,24): error C3861: 'BusesProperties' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,43): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(18,47): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(18,70): error C3861: 'stereo' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,49): error C2504: 'AudioProcessor' : classe de base non définie
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(20,47): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,51): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(20,70): error C3861: 'stereo' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(15,8): error C2614: 'AudioPluginAudioProcessor' : initialisation de membre non conforme : 'AudioProcessor' n'est ni une base ni un membre
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,51): error C2143: erreur de syntaxe : absence de ',' avant '&'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,24): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(31,16): error C2065: 'mGain' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,30): error C2061: erreur de syntaxe : identificateur 'AudioBuffer'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(32,16): error C2065: 'mDelay' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,5): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(33,16): error C2065: 'mLfo' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,31): error C2143: erreur de syntaxe : absence de ';' avant '*'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,7): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(38,56): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,20): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,11): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,47): error C2039: 'getName' n'est pas membre de 'AudioPluginAudioProcessor'
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,7):
+  voir la déclaration de 'AudioPluginAudioProcessor'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,24): error C3646: 'getName' : spécificateur de substitution inconnu
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,47): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'getName'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,32): error C2059: erreur de syntaxe : ')'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,55): error C2059: erreur de syntaxe : ')'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(42,48): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(39,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,11): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(39,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(90,7): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(90,20): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,24): error C3646: 'getProgramName' : spécificateur de substitution inconnu
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,40): error C2062: type 'int' inattendu
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(90,47): error C2039: 'getProgramName' n'est pas membre de 'AudioPluginAudioProcessor'
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,7):
+  voir la déclaration de 'AudioPluginAudioProcessor'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(53,59): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,46): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(90,13): error C2086: 'const int String' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,13):
+  voir la déclaration de 'String'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,58): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,58): error C2143: erreur de syntaxe : absence de ',' avant '&'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(90,47): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'getProgramName'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(90,63): error C2062: type 'int' inattendu
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,31): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(91,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(91,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(95,69): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,37): error C2061: erreur de syntaxe : identificateur 'MemoryBlock'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(95,81): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(95,81): error C2143: erreur de syntaxe : absence de ',' avant '&'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(95,75): warning C4459: la déclaration de 'String' masque la déclaration globale
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(38,13):
+  voir la déclaration de 'String'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(64,36): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(103,9): error C2065: 'mDelay' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(104,9): error C2065: 'mLfo' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(65,38): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(113,9): error C2065: 'mDelay' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(114,9): error C2065: 'mLfo' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(66,34): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(121,74): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(121,74): error C2143: erreur de syntaxe : absence de ',' avant '&'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(131,9): error C2065: 'layouts' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(71,1): warning C4183: 'JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(131,46): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(25,6): error C3668: 'AudioPluginAudioProcessor::~AudioPluginAudioProcessor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(131,69): error C3861: 'mono' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(28,10): error C3668: 'AudioPluginAudioProcessor::prepareToPlay' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(132,9): error C2065: 'layouts' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(132,46): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(29,10): error C3668: 'AudioPluginAudioProcessor::releaseResources' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(132,69): error C3861: 'stereo' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(32,10): error C3668: 'AudioPluginAudioProcessor::isBusesLayoutSupported' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(137,9): error C2065: 'layouts' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(35,10): error C3668: 'AudioPluginAudioProcessor::processBlock' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(137,46): error C2065: 'layouts' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(39,10): error C3668: 'AudioPluginAudioProcessor::hasEditor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(146,47): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(146,53): error C2065: 'AudioBuffer' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(44,10): error C3668: 'AudioPluginAudioProcessor::acceptsMidi' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(146,65): error C2062: type 'float' inattendu
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(45,10): error C3668: 'AudioPluginAudioProcessor::producesMidi' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(146,81): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(46,10): error C3668: 'AudioPluginAudioProcessor::isMidiEffect' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(147,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(47,12): error C3668: 'AudioPluginAudioProcessor::getTailLengthSeconds' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(147,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(50,9): error C3668: 'AudioPluginAudioProcessor::getNumPrograms' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(191,1): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(191,27): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(51,9): error C3668: 'AudioPluginAudioProcessor::getCurrentProgram' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(191,27): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(52,10): error C3668: 'AudioPluginAudioProcessor::setCurrentProgram' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(54,10): error C3668: 'AudioPluginAudioProcessor::changeProgramName' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(191,56): error C2039: 'createEditor' n'est pas membre de 'AudioPluginAudioProcessor'
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(20,7):
+  voir la déclaration de 'AudioPluginAudioProcessor'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.cpp(191,56): error C1003: le nombre d'erreurs est supérieur à 100 ; arrêt de la compilation
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(57,10): error C3668: 'AudioPluginAudioProcessor::getStateInformation' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginProcessor.h(58,10): error C3668: 'AudioPluginAudioProcessor::setStateInformation' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(17,49): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(17,55): error C2504: 'AudioProcessorEditor' : classe de base non définie
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(24,17): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(24,23): error C2061: erreur de syntaxe : identificateur 'Graphics'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(32,18): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(32,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(32,43): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(35,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(35,1): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(35,1): warning C4183: 'JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(21,6): error C3668: 'AudioPluginAudioProcessorEditor::~AudioPluginAudioProcessorEditor' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(24,10): error C3668: 'AudioPluginAudioProcessorEditor::paint' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.h(25,10): error C3668: 'AudioPluginAudioProcessorEditor::resized' : la méthode comprenant le spécificateur de substitution 'override' n'a substitué aucune méthode de la classe de base
+  (compiler le fichier source '../../Source/PluginEditor.cpp')
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(14,7): error C2614: 'AudioPluginAudioProcessorEditor' : initialisation de membre non conforme : 'AudioProcessorEditor' n'est ni une base ni un membre
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(18,13): error C2065: 'MAIN_PANEL_WIDTH' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(18,31): error C2065: 'MAIN_PANEL_HEIGHT' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(18,5): error C3861: 'setSize' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(19,5): error C2065: 'mMainPanel' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(19,36): error C2065: 'processor' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(20,23): error C2065: 'mMainPanel' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(20,5): error C3861: 'addAndMakeVisible' : identificateur introuvable
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(28,46): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(28,52): error C2065: 'Graphics' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(28,62): error C2065: 'g' : identificateur non déclaré
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(28,63): error C2761: 'void AudioPluginAudioProcessorEditor::paint(void)' : la redéclaration du membre n'est pas autorisée
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(29,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'fillAll'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,45): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,17): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,5): error C2086: 'int g' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,5):
+  voir la déclaration de 'g'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'setColour'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(33,18): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,5): error C2086: 'int g' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,5):
+  voir la déclaration de 'g'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'setFont'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(34,16): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,5): error C3927: '->' : l'utilisation d'un type de retour de fin n'est pas autorisée après un déclarateur qui n'est pas un déclarateur de fonction
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,6): error C3484: erreur de syntaxe : '->' attendu avant le type de retour
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,7): error C3613: type de retour manquant après '->' ('int' pris par défaut)
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,22): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,5): error C2086: 'int g' : redéfinition
+  C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(31,5):
+  voir la déclaration de 'g'
+  
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,7): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'drawFittedText'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(35,57): error C2653: 'juce' : n'est pas un nom de classe ni d'espace de noms
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(36,1): error C2059: erreur de syntaxe : '}'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(36,1): error C2143: erreur de syntaxe : absence de ';' avant '}'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(39,1): error C2143: erreur de syntaxe : absence de ';' avant '{'
+C:\Users\Yassine\Desktop\test2\audioPlugin\AudioPlugin\AudioPlugin\Source\PluginEditor.cpp(39,1): error C2447: '{' : en-tête de fonction manquant (liste formelle à l'ancien format ?)

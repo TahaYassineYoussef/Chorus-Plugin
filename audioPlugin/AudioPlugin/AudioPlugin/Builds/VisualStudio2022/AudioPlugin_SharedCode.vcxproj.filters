@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AudioPlugin\Panels">
+      <UniqueIdentifier>{9520A323-14F4-945F-EBC1-77B1FD3861F9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioPlugin\Helpers">
+      <UniqueIdentifier>{816DBFF0-D537-A683-1690-0864C0F769E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioPlugin\DSP">
+      <UniqueIdentifier>{5025C5A8-D63C-E7B1-FBED-5622AB2D654C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioPlugin\Source">
+      <UniqueIdentifier>{7A864397-B793-EEB4-53E1-D148BD1DEBFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AudioPlugin">
+      <UniqueIdentifier>{60B95FC9-D92F-59F2-2B11-E5815AD77287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JUCE Library Code">
+      <UniqueIdentifier>{7ED5A90E-41AF-A1EF-659B-37CEEAB9BA61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\KAPCenterPanel.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPCenterPanelMenuBar.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPFxPanel.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPGainPanel.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPMainPanel.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPPanelBase.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPTopPanel.cpp">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPAudioHelpers.cpp">
+      <Filter>AudioPlugin\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPDelay.cpp">
+      <Filter>AudioPlugin\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPGain.cpp">
+      <Filter>AudioPlugin\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\KAPlfo.cpp">
+      <Filter>AudioPlugin\DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PluginProcessor.cpp">
+      <Filter>AudioPlugin\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PluginEditor.cpp">
+      <Filter>AudioPlugin\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\KAPCenterPanel.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPCenterPanelMenuBar.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPFxPanel.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPGainPanel.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPMainPanel.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPPanelBase.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPTopPanel.h">
+      <Filter>AudioPlugin\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\AudioPluginHelpers.h">
+      <Filter>AudioPlugin\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPInterfaceDefines.h">
+      <Filter>AudioPlugin\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPDelay.h">
+      <Filter>AudioPlugin\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPGain.h">
+      <Filter>AudioPlugin\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\KAPlfo.h">
+      <Filter>AudioPlugin\DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PluginProcessor.h">
+      <Filter>AudioPlugin\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PluginEditor.h">
+      <Filter>AudioPlugin\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\JuceLibraryCode\JucePluginDefines.h">
+      <Filter>JUCE Library Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
